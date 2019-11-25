@@ -46,6 +46,7 @@ public class AddUser extends JFrame {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (Exception e) {
 		}
+		System.out.println();
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(750, 650, 549, 337);
 		contentPane = new JPanel();
